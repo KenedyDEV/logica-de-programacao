@@ -1,0 +1,5 @@
+let prNome = prompt('Insira seu primeiro nome: ')
+let segNome = prompt('Insira seu segundo nome: ')
+let campEstudo = prompt('Insira seu campo de estudo: ')
+let anoNascimento = prompt('Insira seu ano de nascimento: ')
+document.body.innerHTML += (`${prNome} ${segNome} estuda ${campEstudo} e tem ${ 2023 - anoNascimento } anos de idade.`)
